@@ -139,8 +139,8 @@ class Arxiv:
         return page_count
 
 
-xx = Arxiv().make_parse('2020-10-01', '2024-01-22', keys)
-print(len(xx[1]))
+# xx = Arxiv().make_parse('2020-10-01', '2024-01-22', keys)
+# print(len(xx[1]))
 # Arxiv().make_parse_2periods_and_draw_graph('2023-10-01', '2023-11-30', '2023-12-01', '2024-01-22', keys)
-# Arxiv().save_pdfs_and_get_pages('2023-12-01', '2024-01-22', r'F:\Работа\pdfs', keys)
+Arxiv().save_pdfs_and_get_pages('2023-12-01', '2024-01-22', r'pdfs', keys)
 # print(Arxiv().count_pages(r'F:\Работа\pdfs'))
